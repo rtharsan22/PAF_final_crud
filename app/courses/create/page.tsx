@@ -28,7 +28,7 @@ export default function CreateCoursePage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-blue-50">
       <div className="w-full max-w-md p-6 bg-white rounded-lg shadow-md">
-        <h1 className="text-3xl font-semibold text-blue-700 mb-6 text-center">
+        <h1 className="text-3xl font-semibold text-blue-800 mb-6 text-center">
           Start Your Studies
         </h1>
         {error && (
@@ -38,7 +38,7 @@ export default function CreateCoursePage() {
         )}
         <form onSubmit={handleCreate} className="space-y-5">
           <div>
-            <label className="block text-sm font-medium text-blue-700 mb-1">
+            <label className="block text-sm font-medium text-blue-800 mb-1">
               Subject
             </label>
             <input

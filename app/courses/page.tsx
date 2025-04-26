@@ -89,18 +89,13 @@ export default function CoursesPage() {
         </div>
       </header>
 
+
+
+
+
       {/* Main Content */}
       <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="flex justify-between items-center mb-6">
-          <h1 className="text-2xl font-bold text-gray-800">My study time</h1>
-          <button
-            onClick={() => router.push("/courses/create")}
-            className="flex items-center gap-2 bg-cyan-500 text-white px-4 py-2 rounded-md hover:bg-cyan-600 transition-colors"
-          >
-            <PlusCircle size={18} />
-            <span>Add New things </span>
-          </button>
-        </div>
+        
 
         {error && (
           <div className="mb-6 bg-red-50 border-l-4 border-red-500 p-4 text-red-700">
