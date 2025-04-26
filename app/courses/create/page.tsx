@@ -27,11 +27,11 @@ export default function CreateCoursePage() {
 
     return (
         <div className="mx-auto max-w-md mt-10 p-4 bg-white rounded shadow">
-            <h1 className="text-2xl font-bold mb-4">Create Course</h1>
+            <h1 className="text-2xl font-bold mb-4">Starts your studies</h1>
             {error && <div className="text-red-500 mb-4">{error}</div>}
             <form onSubmit={handleCreate} className="space-y-4">
                 <div>
-                    <label className="block mb-1">Title</label>
+                    <label className="block mb-1">Subject</label>
                     <input
                         type="text"
                         className="w-full border p-2 rounded"
@@ -41,7 +41,7 @@ export default function CreateCoursePage() {
                     />
                 </div>
                 <div>
-                    <label className="block mb-1">Description</label>
+                    <label className="block mb-1">About your plans</label>
                     <textarea
                         className="w-full border p-2 rounded"
                         value={description}

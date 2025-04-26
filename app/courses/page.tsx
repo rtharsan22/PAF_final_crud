@@ -74,7 +74,7 @@ export default function CoursesPage() {
       <header className="bg-white shadow">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <div className="flex items-center">
-            <Image src="/images/logo.png" alt="RoboticGen Logo" width={150} height={40} />
+            {/* <Image src="/images/logo.png" alt="RoboticGen Logo" width={150} height={40} /> */}
           </div>
           <div className="flex items-center gap-4">
             <UserProfile username={username} />
