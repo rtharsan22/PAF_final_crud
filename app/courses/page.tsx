@@ -71,7 +71,7 @@ export default function CoursesPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      {/* <header className="bg-white shadow">
+      <header className="bg-white shadow">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <div className="flex items-center">
             <Image src="/images/logo.png" alt="RoboticGen Logo" width={150} height={40} />
@@ -87,7 +87,7 @@ export default function CoursesPage() {
             </button>
           </div>
         </div>
-      </header> */}
+      </header>
 
       {/* Main Content */}
       <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -122,7 +122,7 @@ export default function CoursesPage() {
                 <div className="h-3 bg-gradient-to-r from-cyan-500 to-blue-600"></div>
                 <div className="p-8">
                   <h2 className="text-xl font-semibold text-gray-800 mb-3">{course.title}</h2>
-                  <p className="text-gray-600 mb-6">{course.description}</p>
+                  <p className="text-gray-700 mb-6">{course.description}</p>
                   <div className="flex justify-end space-x-2 pt-3 border-t">
                     <button
                       onClick={() => router.push(`/courses/${course.id}/edit`)}
